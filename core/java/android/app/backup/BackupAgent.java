@@ -108,13 +108,6 @@ public abstract class BackupAgent extends ContextWrapper {
     private static final String TAG = "BackupAgent";
     private static final boolean DEBUG = false;
 
-    /**
-     * To lookup an application's database and shared preferences directories (usually
-     * /data/data/com.application.name), this generic name is used to invoke the
-     * getSharedPrefsFile(String) and getDatabasePath(String) APIs.
-     */
-    private static final String GENERIC_FILE_NAME = "foo";
-
     /** @hide */
     public static final int TYPE_EOF = 0;
 
